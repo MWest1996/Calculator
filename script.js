@@ -63,7 +63,7 @@ keys.addEventListener(`click`, e => {
                     result = parseFloat(n1) / parseFloat(n2)
                 }
 
-                return rersult
+                return result
             }
 
             display.textContent = calculate(firstValue, operator, secondValue)
