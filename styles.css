@@ -1,0 +1,28 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    background-image: linear-gradient(236deg, #74ebd5, #acb6e5);
+}
+
+.keys{
+    display: inline-grid;
+    width: 360px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.display{
+    border: 2px solid black;
+    color: white;
+    background-color: darkgray;
+    height: 100px;
+    width: 360px;
+}
+
+button{
+    height: 100px;
+}
